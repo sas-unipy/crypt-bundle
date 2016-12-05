@@ -1,0 +1,3 @@
+unipy_crypt_homepage:
+    path:     /
+    defaults: { _controller: UNIPYCryptBundle:Default:index }

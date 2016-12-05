@@ -1,0 +1,12 @@
+parameters:
+  unipy.crypt.provider.openlss_lib_crypt.class: UNIPY\CryptBundle\Provider\OpenlssLibCryptProvider
+
+services:
+  unipy.crypt.provider.openlss_lib_crypt:
+    class: '%unipy.crypt.provider.openlss_lib_crypt.class%'
+    tags:
+      - { name: unipy.crypt.provider, key: 'openlss_lib_crypt' }
+
+#    unipy_crypt.example:
+#        class: UNIPY\CryptBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]

@@ -1,0 +1,23 @@
+{
+    "name": "unipy/crypt-bundle",
+    "type": "symfony-bundle",
+    "description": "UNIPY Cryptographic Helper",
+    "keywords": ["Cryptographic Bundle"],
+    "homepage": "http://unipy.fr",
+    "license": "MIT",
+    "version": "1.0.0", 
+    "authors": [
+        {
+            "name": "UNIPY SAS",
+            "email": "contact@unipy.fr"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.9",
+        "symfony/framework-bundle": "~2.3|~3.0",
+        "openlss/lib-crypt": "^0.0.10"
+    },
+    "autoload": {
+        "psr-4": { "UNIPY\\": "" }
+    }
+}
